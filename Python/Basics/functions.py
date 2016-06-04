@@ -30,3 +30,10 @@ def average(num1, num2):
 avg = average(2,8)
 
 print("The average of 2 & 8 is: " + str(avg))
+
+# if index of item 0 is a continue
+def loopy(items):
+    for item in items:
+        if item[0] == 'a':
+            continue
+        print(item
