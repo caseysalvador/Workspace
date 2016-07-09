@@ -20,11 +20,12 @@ print("c1. " + str(b_list))
 
 #.insert() method
 c_list = list('acdf')
-print("c1. " + c_list)
+print("c1. " + str(c_list))
 
+#insert a letter in location 1
 c_list.insert(1,'b')
 print("c2. " + str(c_list))
 
-
+#insert a letter in location 4
 c_list.insert(4,'e')
 print("c3. " + str(c_list))
