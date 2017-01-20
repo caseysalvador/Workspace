@@ -18,7 +18,22 @@ class pezDispenser {
     }
     // new method fill
     public void fill(){
-      pezCount = MAX_PEZ;
+      fill(MAX_PEZ);
+    }
+    
+    // new method fill pezAmount
+    public void fill(int pezAmount){
+    	pezCount += pezAmount;
+    }
+    
+    // new method dispense
+    public boolean dispense(){
+    	boolean wasDispensed = false;
+    	if (!isEmpty()){
+    		pezCount--;
+    		wasDispensed = true;
+    	}
+    	return wasDispensed;
     }
     
     //isEmpty method
