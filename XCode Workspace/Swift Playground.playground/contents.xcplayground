@@ -3,5 +3,7 @@
     <pages>
         <page name='Linked List'/>
         <page name='Basics'/>
+        <page name='Stack and Generics'/>
+        <page name='FizzBuzz'/>
     </pages>
 </playground>
