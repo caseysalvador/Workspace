@@ -1,5 +1,4 @@
-// Linked List
-// By: Lets Build That App - YouTube
+// Reverse Linked List
 
 import UIKit
 

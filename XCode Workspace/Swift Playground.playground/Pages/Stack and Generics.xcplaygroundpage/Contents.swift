@@ -1,6 +1,6 @@
 import Foundation
 
-//// Node Class
+// Node Class
 //class Node {
 //    let value: Int
 //    var next: Node?
@@ -8,9 +8,9 @@ import Foundation
 //        self.value = value
 //    }
 //}
-
-
-
+//
+//
+//
 // Stack
 //class Stack { // Class Stack
 //    
@@ -34,8 +34,8 @@ import Foundation
 //    }
 //    
 //}
-
-
+//
+//
 // new stack object
 //let stack = Stack()
 //stack.push(1)

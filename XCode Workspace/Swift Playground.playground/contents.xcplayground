@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='Linked List'/>
+        <page name='Reverse Linked List'/>
         <page name='Basics'/>
         <page name='Stack and Generics'/>
         <page name='FizzBuzz'/>
+        <page name='Classes and Inheritance'/>
+        <page name='Switch Statements'/>
+        <page name='Binary Search'/>
     </pages>
 </playground>

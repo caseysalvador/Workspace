@@ -24,20 +24,20 @@ for num in numbers {
 // FizzBuzz 1000
 
 // create an array of numbers in this instance 1000
-var oneThousandNumbers = [Int]()
-for i in 1...1000 {
-    oneThousandNumbers.append(i)
-}
-
-// FizzBuzz for 1000 Numbers
-for num1 in oneThousandNumbers {
-    if num1 % 15 == 0 {
-        print("\(num1) fizzbuzz")
-    } else if num1 % 3 == 0 {
-        print("\(num1) fizz")
-    } else if num1 % 5 == 0 {
-        print("\(num1) buzz")
-    } else {
-        print(num1)
-    }
-}
+//var oneThousandNumbers = [Int]()
+//for i in 1...1000 {
+//    oneThousandNumbers.append(i)
+//}
+//
+//// FizzBuzz for 1000 Numbers
+//for num1 in oneThousandNumbers {
+//    if num1 % 15 == 0 {
+//        print("\(num1) fizzbuzz")
+//    } else if num1 % 3 == 0 {
+//        print("\(num1) fizz")
+//    } else if num1 % 5 == 0 {
+//        print("\(num1) buzz")
+//    } else {
+//        print(num1)
+//    }
+//}

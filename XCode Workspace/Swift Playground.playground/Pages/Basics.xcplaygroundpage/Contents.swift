@@ -12,7 +12,7 @@ var food = "Sushi"
 var addStr = "I enjoy eating "
 var whatDoYouEat = addStr + food
 
-// Inference
+// String Interpolation
 let date = Date()
 let formatter = DateFormatter()
 formatter.dateFormat = "MM-dd-yyyy"
