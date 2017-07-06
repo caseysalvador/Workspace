@@ -1,5 +1,5 @@
 #Grocery Shopping List app
-#Copyright: Casey Chad Salvador
+#Author: Casey Chad Salvador
 #Defined Grocery List
 
 #Create a list that holds our items
