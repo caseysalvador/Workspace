@@ -26,16 +26,16 @@ class Container(GridLayout):
 
     def add_one(self):
         value = int(self.display.text)
-        self.display.text = str(value+1)
+        self.display.text = str(value+1) #button value +1
 
     def subtract_one(self):
         value = int(self.display.text)
-        self.display.text = str(value-1)
+        self.display.text = str(value-1) #button value -1
 
 
 class MainApp(App):
     def build(self):
-        self.title = 'Awesome app!!!'
+        self.title = 'Addition/Subtraction App'
         return Container()
 
 
