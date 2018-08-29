@@ -13,11 +13,11 @@ for kv in listdir(kv_path):
     Builder.load_file(kv_path+kv)
 
 # Classes
-class AddButton(Button):
+class AddButton(Button): # Call Button Class on AddButton
     pass
 
 
-class SubtractButton(Button):
+class SubtractButton(Button): # Call Button Class on SubtractButton
     pass
 
 
@@ -35,7 +35,7 @@ class Container(GridLayout):
 
 class MainApp(App):
     def build(self):
-        self.title = 'Addition/Subtraction App'
+        self.title = 'Addition/Subtraction App' # Main Window Title
         return Container()
 
 
