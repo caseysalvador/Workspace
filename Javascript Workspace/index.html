@@ -1,0 +1,23 @@
+<div ng-controller="index">
+	<div>
+		Favorite word: <input type="text" ng-model="favoriteWord" />
+		- {{favoriteWord}}
+	</div>
+	<div>
+		Favorite color:
+		<input type="radio" name="fc" value="Red" ng-model="favoriteColor">Red</input>
+		<input type="radio" name="fc" value="Green" ng-model="favoriteColor">Green</input>
+		<input type="radio" name="fc" value="Yellow" ng-model="favoriteColor">Yellow</input>
+		<input type="radio" name="fc" value="Blue" ng-model="favoriteColor">Blue</input>
+		- {{favoriteColor}}
+	</div>
+	<div>
+		Favorite shape:
+		<select ng-model="favoriteShape">
+			<option value="Circle">Circle</option>
+			<option value="Triangle">Triangle</option>
+			<option value="Square">Square</option>
+		</select>
+		- {{favoriteShape}}
+	</div>
+</div>
