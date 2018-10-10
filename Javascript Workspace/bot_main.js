@@ -7,8 +7,8 @@ var email = "smith.john@gmail.com"
 var telephone = "808-123-1234"
 var address = "123 Street Rd."
 var zipCode = "29112"
-var city = "Charleston"
-var state = "SC"
+var city = "San Francisco"
+var state = "HI"
 var country = "USA"
 
 // Credit Card Info
